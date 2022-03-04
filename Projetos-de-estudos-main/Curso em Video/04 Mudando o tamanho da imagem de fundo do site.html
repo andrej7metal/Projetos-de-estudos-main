@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ajuste de tamanho da imagem de fundo</title>
+    <style>
+        body{
+            height: 100vh;/* vh é o tamanho da viewport (tamanho da tela) seja pc ou celular */
+        background-color: teal;
+        background-image: url(Imagens/Flores.jpg);
+        background-position: center center;
+        background-repeat: no-repeat; /* todo background por padrao repete a imagem , usar o comando no repeat e as sobras usar o comando background size: cover! e lembrar de colocar a viewport > height: 100%vh para se ajustar a qualquer tamanho de tela */
+        background-size: cover;/* faz corte na imagem se precisar mas Preenche a tela inteira */
+        }
+
+        main{
+            background-color: white; /* cor do fundo do bloco criado */
+            width: 400px; /* criando bloco */
+            padding: 10px; /* espaço interno entre TEXTO e BORDA */
+            margin: auto /* aqui BLOCO criado com width vai para o  CENTRO da TELA*/
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1> Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempore quos totam iure praesentium quis consectetur illum a deleniti ipsa distinctio qui eveniet, assumenda natus repudiandae explicabo quibusdam, laborum sequi.</p>
+    </main>
+</body>
+</html>

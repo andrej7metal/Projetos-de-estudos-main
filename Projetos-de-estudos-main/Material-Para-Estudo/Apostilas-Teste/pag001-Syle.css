@@ -1,0 +1,9 @@
+p{
+    color: black;
+}
+
+/*Uma regra CSS pode ser aplicada a vários seletores ao mesmo tempo. Para isso separe cada seletor com uma vírgula. No exemplo abaixo agrupamos todos os elementos cabeçalho. A cor de todos os cabeçalhos será verde.*/
+H1, H2, H3, H4, H5, H6 {
+    color: rgb(58, 65, 3);
+}
+

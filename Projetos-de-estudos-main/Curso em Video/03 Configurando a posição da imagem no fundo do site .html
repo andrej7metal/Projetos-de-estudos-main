@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blocos de Imagens</title>
+    <style>
+        Body{
+            background-color: lightsteelblue;
+        }
+        div.bloco{
+            background-image: url(Imagens/Fatiada.jpg);
+            height: 140px; /* largura do bloco a ser criado */
+            border:  solid black 3px; /* Solid cor black e grossura da borda 3px*/
+            border-radius: 20px; /* arredondamento das bordas */
+            margin: 10px; /* espaçamento entre quadrados criados com height */
+           }
+
+           div#b1{
+               background-position:right bottom;/* corta parte esquerda debaixo da imagem */
+           }
+
+           div#b2{
+               background-position: left center; /* corta lado direito central da imagem assim uma foto faz 4 mini imagens nos blocos quadrados criados com height*/
+           }
+
+           div#b3{
+               background-position: left top;
+           }
+
+           div#b4{
+               background-position:  top;
+           }
+    </style>
+</head>
+<body>
+    <div class="bloco" id="b1"> </div>
+
+    <div class="bloco" id="b2"></div>
+
+    <div class="bloco" id="b3"></div>
+
+    <div class="bloco" id="b4"></div>
+
+</body>
+</html>
